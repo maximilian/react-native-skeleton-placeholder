@@ -1,12 +1,12 @@
 {
-  "name": "react-native-skeleton-placeholder",
-  "version": "5.2.4",
+  "name": "react-native-skeleton-placeholder-masked-view-fix",
+  "version": "5.2.4-fix",
   "description": "SkeletonPlaceholder is a React Native library to easily create an amazing loading effect.",
   "main": "lib/skeleton-placeholder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --max-warnings 0",
-    "build": "rm -rf ./lib && mkdir ./lib && tsc",
+    "build":  "rimraf ./lib && mkdirp ./lib && tsc",
     "prepack": "yarn build"
   },
   "keywords": [
